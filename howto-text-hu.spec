@@ -13,6 +13,7 @@ Group:		Books/Howtos
 Source0:	howto-%{format}.tar.bz2
 Url:		http://www.kde.hu/mlp/hogyanok/
 License:	GPL
+BuildRoot:	%{_tmppath}/howto-%{format}-root
 BuildArchitectures: noarch
 Requires:   locales-hu howto-utils
 BuildRequires:  howto-utils
